@@ -1,0 +1,201 @@
+html {
+
+    background-image: url("../photo/background.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    /* background-image: url("../photo/pexels-hasan-albari-1229861.jpeg"); */
+    background-color: #ffde8dfa;
+    box-shadow: 0px 0px 60px white;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(151, 173, 63);
+    border-bottom: 2px solid rgb(101, 82, 135);
+    text-shadow: 4px 3px 0px black;
+}
+
+
+img {
+    border: 4px solid black;
+    border-radius: 30px;
+    width: 200px;
+}
+
+header {
+    padding: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+.job {
+    border-top: 2px solid rgb(101, 82, 135);
+    margin: 20px;
+    text-align: left;
+    border-bottom: 2px solid rgb(101, 82, 135);
+    border-radius: 40px;
+
+}
+
+.job2 {
+    color: grey;
+    padding: 6px
+}
+
+.job3 {
+    border-bottom: 2px solid rgb(101, 82, 135);
+    border-top: 2px solid rgb(101, 82, 135);
+    margin: 30px;
+    border-radius: 50px;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+em {
+    margin: 5px;
+}
+
+.intro {
+    text-align: center;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info {
+    text-align: right;
+    line-height: 25px;
+    padding-right: 15px;
+}
+
+.info2 {
+    padding-right: 5px;
+}
+
+.info3 {
+    padding-right: 40px;
+}
+
+a {
+    color: rgb(96, 169, 194);
+}
+
+a:hover {
+    color: rgb(50, 172, 63);
+}
+
+i {
+    padding: 10px;
+}
+
+.btn {
+
+    position: relative;
+    background-color: rgb(248, 209, 110);
+    border-radius: 8px;
+    border: 3px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
+
+.btn1 {
+    color: rgb(151, 173, 63);
+    background-color: #ffde8dfa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-top: 2px solid rgb(101, 82, 135);
+    border-bottom: 2px solid rgb(101, 82, 135);
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px black;
+    cursor: pointer;
+
+}
+
+
+
+dd {
+    margin-top: 8px;
+}
+
+ul {
+    margin-left: 40px;
+    width: 200px;
+    line-height: 30px;
+    border-left: 3px solid rgb(101, 82, 135);
+    border-right: 3px solid rgb(101, 82, 135);
+    border-radius: 30px;
+}
+
+.knowledge {
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.len {
+    text-align: center;
+    line-height: 30px;
+}
+
+.anj {
+    text-decoration: underline;
+}
+
+h2,
+h3,
+h4 {
+    text-align: center;
+    color: rgb(151, 173, 63);
+    text-shadow: 1px 0px 1px black;
+}
+
+.hobby {
+    font-family: Verdana, sGeneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.iconB {
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    margin: 20px;
+
+}
+
+.footer {
+
+    text-align: center;
+}
+
+.links {
+    text-align: left;
+}
+
+.line {
+    border-top: 2px solid rgb(101, 82, 135);
+    margin: 0px 25px 0px 25px;
+}
