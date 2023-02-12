@@ -9,7 +9,7 @@ html {
 
 body {
     /* background-image: url("../photo/pexels-hasan-albari-1229861.jpeg"); */
-    background-color: #ffde8dfa;
+    background-color: #d1cec6fa;
     box-shadow: 0px 0px 60px white;
     border: 2px solid black;
     margin-left: 20%;
@@ -89,7 +89,7 @@ em {
 }
 
 a {
-    color: rgb(96, 169, 194);
+    color: rgb(93 113 242);
 }
 
 a:hover {
@@ -103,7 +103,7 @@ i {
 .btn {
 
     position: relative;
-    background-color: rgb(248, 209, 110);
+    background-color: white;
     border-radius: 8px;
     border: 3px solid black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -117,7 +117,7 @@ i {
 
 .btn1 {
     color: rgb(151, 173, 63);
-    background-color: #ffde8dfa;
+    background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     border-top: 2px solid rgb(101, 82, 135);
