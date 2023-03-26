@@ -188,7 +188,7 @@ i {
     border-radius: 8px;
     border: 3px solid black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 21px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -279,4 +279,25 @@ footer {
 .line {
     border-top: 2px solid rgb(101, 82, 135);
     margin: 0px 25px 0px 25px;
+}
+
+dl,
+dd {
+    list-style-type: none;
+}
+
+dl.slideContent {
+    display: none;
+}
+
+a {
+    color: DarkCyan;
+}
+
+a.header {
+    color: DarkSlateGray;
+}
+
+a:hover {
+    color: LightSlateGray;
 }
