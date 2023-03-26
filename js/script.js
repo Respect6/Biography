@@ -1,13 +1,14 @@
 
 (function ($) {
 
-    var list = $('.links');
+    // var list = $('.links');
 
-    list.find('dd').hide();
-    list.find('dt').on('click', function () {
-        $(this).next().slideToggle()
-            .siblings('dd').slideToggle();
-    });
+    // list.find('dd').hide();
+
+    // list.find('dt').on('click', function () {
+    //     $(this).next().slideToggle()
+    //         .siblings('dd').slideToggle();
+    // });
 
 })(jQuery);
 
@@ -38,5 +39,13 @@ $('#zoom li:nth-child(7)').css({
     color: 'red',
     fontSize: ''
 
+});
+
+$(document).ready(function () {
+    $(".btn").click(function () {
+
+        var target = $(this).parent().children(".slideContent");
+        $(target).slideToggle();
+    });
 });
 
