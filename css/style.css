@@ -19,6 +19,9 @@ body {
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
+#google_translate_element {
+    padding-left: 908px;
+}
 
 
 .p {
