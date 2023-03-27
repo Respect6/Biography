@@ -11,10 +11,24 @@
 
 </head>
 
+    <div id="google_translate_element"></div>
+
+<!-- script Translate -->
+<!-- script Translate -->
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            { pageLanguage: 'en' },
+            'google_translate_element'
+        );
+    }
+</script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- script Translate -->
+<!-- script Translate -->
+
 <body>
-
     <header>
-
         <main class="container">
             <p class="p">Hello 👋 I'm</p>
             <section class="animation">
@@ -29,6 +43,8 @@
                 </div>
             </section>
         </main>
+
+        <div id="google_translate_element"></div>
 
         <div class="intro">
             <img src="photo/Marek.jpeg" alt="Marek">
@@ -225,6 +241,7 @@
 
 
 
+
     <h2>LANGUAGES</h2>
 
     <div class="len">
@@ -312,9 +329,6 @@
         </div>
 
     </footer>
-
-
-
 
 
     <script src="js/jquery.min.js"></script>
