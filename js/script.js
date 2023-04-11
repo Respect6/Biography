@@ -30,12 +30,12 @@ $('.iconB').click(function () {
 });
 
 
-$('#zoom li:nth-child(4)').css({
+$('#zoom li:nth-child(8)').css({
     color: 'blue',
     fontSize: ''
 
 });
-$('#zoom li:nth-child(7)').css({
+$('#zoom li:nth-child(9)').css({
     color: 'red',
     fontSize: ''
 
@@ -48,4 +48,7 @@ $(document).ready(function () {
         $(target).slideToggle();
     });
 });
+
+// translate
+
 
