@@ -30,13 +30,13 @@ $('.iconB').click(function () {
 });
 
 
-$('#zoom li:nth-child(8)').css({
-    color: 'blue',
+$('#zoom li:nth-child(7)').css({
+    color: '',
     fontSize: ''
 
 });
-$('#zoom li:nth-child(9)').css({
-    color: 'red',
+$('#zoom li:nth-child(8)').css({
+    color: '',
     fontSize: ''
 
 });
